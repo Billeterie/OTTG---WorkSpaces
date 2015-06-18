@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="OTTGPU" transaction-type="JTA">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>OTTGJNDI</jta-data-source>
+    <class>cm.fet.ala.entity.Users</class>
+    <class>cm.fet.ala.entity.Timetable</class>
+    <class>cm.fet.ala.entity.Department</class>
+    <class>cm.fet.ala.entity.Course</class>
+    <class>cm.fet.ala.entity.Classroom</class>
+    <class>cm.fet.ala.entity.Faculty</class>
+    <class>cm.fet.ala.entity.Lecturer</class>
+    <class>cm.lla.entity.Dean</class>
+    <class>cm.lla.entity.User</class>
+    <class>cm.lla.entity.Student</class>
+    <class>cm.lla.entity.Course</class>
+    <class>cm.lla.entity.Timetable</class>
+    <class>cm.lla.entity.CourseTakesPlaceInClassroom</class>
+    <class>cm.lla.entity.Classroom</class>
+    <class>cm.lla.entity.Lecturer</class>
+    <class>cm.lla.entity.Department</class>
+    <class>cm.lla.entity.Faculty</class>
+    <class>cm.lla.entity.Lecture</class>
+    <class>cm.lla.entity.HeadDept</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mydb?zeroDateTimeBehavior=convertToNull?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="blackSKIN47&gt;&gt;heAD"/>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+    </properties>
+  </persistence-unit>
+</persistence>
