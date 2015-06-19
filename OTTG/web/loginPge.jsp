@@ -19,7 +19,7 @@
     </head>
     <body >
         <!---->
-        
+
         <%            String username = (String) session.getAttribute("username");
             if (username != null) {
                 out.print("Nice having you " + username + "<a href=\"Logout.jsp\">Logout</a>");
@@ -31,6 +31,7 @@
                 <div class="Absolute-Center is-Responsive  card ">
                     <h1 style="color:white;">Online Timetable Generator</h1>
                     <div class="col-sm-12 col-md-10 col-md-offset-1">
+
                         <form action="verifyLogin.jsp" id="loginForm" method="post">
                             <div class="form-group input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -47,7 +48,8 @@
                             <div class="form-group text-center" >
                                 <a href="#">Forgot Password</a>&nbsp;|&nbsp;<a href="#">Support</a>
                             </div>
-                        </form>        
+                        </form>  
+
                     </div>  
                 </div>    
             </div>

@@ -6,8 +6,6 @@
 
 package cm.lal.model;
 
-import java.util.Date;
-
 /**
  *
  * @author user
@@ -18,8 +16,33 @@ public class User {
     private String firstname;
     private String middlename;
     private String lastname;
-    private Date dateOfBirth;
-    private Character gender;
+    private long dateOfBirth;
+    private String gender; // essentially a String of unit length
+    private String password;
+
+    public long getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public void setDateOfBirth(long dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     public Integer getIduser() {
         return iduser;
@@ -51,22 +74,6 @@ public class User {
 
     public void setLastname(String lastname) {
         this.lastname = lastname;
-    }
-
-    public Date getDateOfBirth() {
-        return dateOfBirth;
-    }
-
-    public void setDateOfBirth(Date dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
-    }
-
-    public Character getGender() {
-        return gender;
-    }
-
-    public void setGender(Character gender) {
-        this.gender = gender;
     }
 
     @Override
