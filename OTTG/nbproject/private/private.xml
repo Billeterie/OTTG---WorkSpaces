@@ -3,18 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/CourseTakesPlaceInClassroomDao.java</file>
-            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/CourseDao.java</file>
-            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/FacultyDao.java</file>
-            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/HeadDeptDao.java</file>
-            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/LectureDao.java</file>
-            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/StudentDao.java</file>
+            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/web/verifyLogin.jsp</file>
+            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/web/deanView.jsp</file>
             <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/UserDao.java</file>
-            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/LecturerDao.java</file>
-            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/TimetableDao.java</file>
-            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/DeanDao.java</file>
-            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/ClassroomDao.java</file>
-            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/dao/DepartmentDao.java</file>
+            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/web/loginPge.jsp</file>
+            <file>file:/C:/Users/user/Documents/GitHub/OTTG---WorkSpaces/OTTG/src/java/cm/lal/util/DbUtil.java</file>
         </group>
     </open-files>
 </project-private>
