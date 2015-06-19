@@ -16,7 +16,7 @@ body{
  /* background: -moz-linear-gradient(to bottom, #00589F 50%, #0073CF) !important;*/
 /*  background: -ms-linear-gradient(to bottom, #00589F 50%, #0073CF) !important;*/
  /* background: -o-linear-gradient(to bottom, #00589F 50%, #0073CF) !important;*/
- /* */background: linear-gradient(to bottom, #00589F 50%, #0073CF) !important;
+ /* */background: linear-gradient(to bottom, #2B3E50 50%, #2B3E50) !important;
   color: white;
 }
 
@@ -32,7 +32,7 @@ div.well{
 
 .Absolute-Center.is-Responsive {
   width: 50%; 
-  height: 50%;
+  height: 75%;
   min-width: 200px;
   max-width: 400px;
   padding: 40px;

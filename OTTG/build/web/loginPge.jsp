@@ -14,12 +14,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" href="css/ionic.min.css" rel="stylesheet"/>
-        <link type="text/css" href="css/ottgstyle.css" rel="stylesheet"/>
+        <link type="text/css" href="css/ottgstyle.css" rel="stylesheet"/><!---->
         <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet"/>
     </head>
     <body >
         <!---->
-        <div >Login Form</div>
+        
         <%            String username = (String) session.getAttribute("username");
             if (username != null) {
                 out.print("Nice having you " + username + "<a href=\"Logout.jsp\">Logout</a>");
@@ -42,11 +42,10 @@
                             </div>
                             <br>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-def btn-block">Login</button>
+                                <button type="submit" class="btn btn-primary btn-block">Login</button>
                             </div>
-                            <div class="form-group text-center" style="color: white;">
+                            <div class="form-group text-center" >
                                 <a href="#">Forgot Password</a>&nbsp;|&nbsp;<a href="#">Support</a>
-                                <i class="glyphicon glyphicon-cloud"></i>
                             </div>
                         </form>        
                     </div>  
